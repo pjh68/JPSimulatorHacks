@@ -68,9 +68,9 @@
 		7BA908F785DF9173A51BE9ADA8E47356 /* NSValue+Expecta.h in Headers */ = {isa = PBXBuildFile; fileRef = A1A2020E86ABB584A675587A0329E9F3 /* NSValue+Expecta.h */; };
 		7BB214E526F2DE253B6E63F7C52E057C /* EXPMatchers+respondTo.m in Sources */ = {isa = PBXBuildFile; fileRef = F00A340585C02F7B0415DC727D35220A /* EXPMatchers+respondTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		7EF03E191C0A6090009350DC /* JPSimulatorHackFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EF03E181C0A6090009350DC /* JPSimulatorHackFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7EF03E1E1C0A6111009350DC /* JPSimulatorHacks.h in Headers */ = {isa = PBXBuildFile; fileRef = 790795EB76F3AFE1864017E87D9EDA9F /* JPSimulatorHacks.h */; };
+		7EF03E1E1C0A6111009350DC /* JPSimulatorHacks.h in Headers */ = {isa = PBXBuildFile; fileRef = 790795EB76F3AFE1864017E87D9EDA9F /* JPSimulatorHacks.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7EF03E1F1C0A6117009350DC /* JPSimulatorHacks.m in Sources */ = {isa = PBXBuildFile; fileRef = 7501907594C7ADFEA9D475165EDDF40B /* JPSimulatorHacks.m */; };
-		7EF03E201C0A6117009350DC /* JPSimulatorHacksDB.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2F75CD5A63B9F76EF9021EE4083949 /* JPSimulatorHacksDB.h */; };
+		7EF03E201C0A6117009350DC /* JPSimulatorHacksDB.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2F75CD5A63B9F76EF9021EE4083949 /* JPSimulatorHacksDB.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7EF03E211C0A6117009350DC /* JPSimulatorHacksDB.m in Sources */ = {isa = PBXBuildFile; fileRef = CC89E40ED730B7D3856FEBC384769FD0 /* JPSimulatorHacksDB.m */; };
 		7EF03E251C0A61ED009350DC /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EF03E241C0A61ED009350DC /* libsqlite3.0.tbd */; };
 		7F63B0E111C7ABA13C40246AC8DD38C7 /* KIFUITestActor.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC9BE01FD3906CA6C1CCE2552EBCEAA /* KIFUITestActor.m */; settings = {COMPILER_FLAGS = "-DKIF_XCTEST -DOS_OBJECT_USE_OBJC=0"; }; };
@@ -1352,6 +1352,7 @@
 				7EF03E1C1C0A6090009350DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		87C0B418CC3AA74B7D39E103BECD8815 /* Build configuration list for PBXNativeTarget "Pods-JPSimulatorHacksSampleTests" */ = {
 			isa = XCConfigurationList;
